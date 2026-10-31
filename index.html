@@ -1,14 +1,176 @@
-<!DOCTYPE html>
-<html>
 
+<!DOCTYPE html>
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Memories 💙</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(
+                135deg,
+                #dbeafe,
+                #93c5fd,
+                #e0f2fe
+            );
+            color: #1e3a5f;
+            padding-bottom: 30px;
+        }
+
+        header {
+            text-align: center;
+            padding: 55px 20px 35px;
+        }
+
+        header h1 {
+            font-size: 34px;
+            color: #123c69;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            margin-top: 12px;
+            color: #416b91;
+            font-size: 14px;
+        }
+
+        .gallery {
+            max-width: 600px;
+            width: 90%;
+            margin: auto;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 20px;
+            border: 3px solid #bfdbfe;
+            box-shadow: 0 8px 25px rgba(30, 64, 120, 0.15);
+        }
+
+        .card:nth-child(2) {
+            border-color: #93c5fd;
+        }
+
+        .card:nth-child(3) {
+            border-color: #60a5fa;
+        }
+
+        .card:nth-child(4) {
+            border-color: #a5c8e8;
+        }
+
+        .card img {
+            width: 100%;
+            display: block;
+            border-radius: 12px;
+        }
+
+        .caption {
+            text-align: center;
+            padding: 22px 12px;
+        }
+
+        .caption h2 {
+            color: #2563a6;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .caption p {
+            color: #647f9d;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            color: #123c69;
+            padding: 25px;
+            font-weight: bold;
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            .gallery {
+                width: 92%;
+            }
+
+            .caption h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-  
-</body>
 
+    <header>
+        <h1>♡ pangeran  ♡</h1>
+        <p>Kumpulan foto dan cerita indah kita 💙</p>
+    </header>
+
+    <main class="gallery">
+
+        <!-- FOTO 1 -->
+        <div class="card">
+            <img src="foto1.jpg" alt="Foto pertama">
+
+            <div class="caption">
+                <h2>💙 pangeran </h2>
+                <p>
+                    Ada banyak hal indah dalam hidup,
+                    dan salah satunya adalah kenangan ini.
+                    Semoga selalu tersimpan di hati.
+                </p>
+            </div>
+        </div>
+
+        <!-- FOTO 2 -->
+        <div class="card">
+            <img src="foto2.jpg" alt="Foto kedua">
+
+            <div class="caption">
+                <h2>✨ istri ke 1</h2>
+                <p>
+                    Waktu boleh berlalu,
+                    tetapi cerita indah tidak akan pernah hilang.
+                </p>
+            </div>
+        </div>
+
+        <!-- FOTO 3 -->
+        <div class="card">
+            <img src="foto3.jpg" alt="Foto ketiga">
+
+            <div class="caption">
+                <h2>🦋 istri ke 2</h2>
+                <p>
+                    Bahagia itu sederhana,
+                    cukup dengan momen kecil yang berarti.
+                </p>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        Made with 💙 and memories
+    </footer>
+
+</body>
 </html>
